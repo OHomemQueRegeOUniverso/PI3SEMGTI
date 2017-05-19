@@ -1,0 +1,127 @@
+.x_panel {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 17px;
+    display: inline-block !important;
+    background: #fff;
+    border: 1px solid #E6E9ED;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    opacity: 1;
+    transition: all .2s ease;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.x_title {
+    border-bottom: 2px solid #E6E9ED;
+    padding: 1px 5px 6px;
+    margin-bottom: 10px;
+}
+
+    .x_title .filter {
+        width: 40%;
+        float: right;
+    }
+
+    .x_title h2 {
+        margin: 5px 0 6px;
+        float: left;
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+        .x_title h2 small {
+            margin-left: 10px;
+        }
+
+    .x_title span {
+        color: #BDBDBD;
+    }
+
+.clearfix:after, form:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.form-control {
+    border-radius: 0;
+    width: 100%;
+}
+
+.form-horizontal .control-label {
+    padding-top: 8px;
+}
+
+.form-control:focus {
+    border-color: #CCD0D7;
+    box-shadow: none !important;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.form-control-feedback {
+    margin-top: 8px;
+    height: 23px;
+    color: #bbb;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+    .form-control-feedback.left {
+        border-right: 1px solid #ccc;
+        left: 13px;
+    }
+
+    .form-control-feedback.right {
+        border-left: 1px solid #ccc;
+        right: 13px;
+    }
+
+.form-control.has-feedback-left {
+    padding-left: 45px;
+}
+
+.form-control.has-feedback-right {
+    padding-right: 45px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+#gender {
+    margin-left: 10px;
+}
+
+.panel_toolbox {
+    float: right;
+    min-width: 70px;
+}
+
+    .panel_toolbox > li {
+        float: left;
+        cursor: pointer;
+    }
+
+        .panel_toolbox > li > a {
+            padding: 5px;
+            color: #C5C7CB;
+            font-size: 14px;
+        }
+
+            .panel_toolbox > li > a:hover {
+                background: #F5F7FA;
+            }
+
+
