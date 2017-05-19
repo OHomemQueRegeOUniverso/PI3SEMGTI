@@ -10,6 +10,7 @@ using System.Data;
 /// </summary>
 public class ClienteBD
 {
+    //TESTE DE GITHUB
     public Cliente Select(string cnpj)
     {
         Cliente obj = null;
